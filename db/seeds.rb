@@ -31,6 +31,13 @@ Post.create([{
 		price: 99,
 		body: "There's no loss of suction* with Hoover patented WindTunnel technology that removes embedded dirt** and minimizes scatter on carpet. Features include: a powerful Hand Tool for precision cleaning, a rinsable filter, a HEPA filter, and on-board tools. It's everything you asked for and more!",
 		amazon_id: "B00B7871DS"
-	}])
+	},
+	{
+		title: "Post-It Super Sticky Notes",
+		price: 7,
+		body: "These colorful squares are the perfect building blocks for self-expression. Use the Post-it Notes Wall Art Creator Tool to make wall-sized characters, messages, works of art or whatever design you want to create. Start creating your next wall art masterpiece.",
+		amazon_id: "B008PAIC4S"
+		
+		}])
 
 p "Created #{Post.count} posts"
