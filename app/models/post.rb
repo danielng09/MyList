@@ -1,8 +1,11 @@
 class Post < ActiveRecord::Base
 	before_save :set_keywords, :set_amazon_id
-
 	default_scope -> { order(created_at: :desc) }
 	scope :search, ->(keyword){ where('keywords LIKE ?', "%#{keyword.downcase}%") if keyword.present? }
+	validates :title, presence: true
+	validates :price, presence: true
+	validates :amazon_link, presence: true
+	validates :body, presence: true, length: { maximum: 140 }
 
 	protected
 		def set_amazon_id
