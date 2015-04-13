@@ -4,14 +4,16 @@ most_recent:
   title: "GMC Denali Road Bike"
   price: 389
   body: "Mens GMC Denali Light weight aluminum road bike has a 21 speed Shimano derailleur"
-  amazon_id: "B00FNVBSAM"
+  amazon_link: "http://www.amazon.com/Denali-Black-Green-20-Inch-Small/dp/B00FNVBSAM/ref=sr_1_1?ie=UTF8&qid=1428959875&sr=8-1&keywords=GMC+Denali+Road+Bike"
+  #amazon_id: "B00FNVBSAM"
   created_at: <%= Time.now %>
 
 other:
   title: "Ostrich Pillow"
   price: 97
   body: "Ostrich Pillow is a revolutionary new product to enable easy power naps anytime, everywhere, Ostrich Pillow's unique design offers a micro environment in which to take a cozy and comfortable power nap at ease. Ostrich Pillow has been designed to allow you to create a little private space within a public one, to relax and unwind."
-  amazon_id: "B00F4S5ST6"
+  amazon_link: "http://www.amazon.com/Studio-Banana-Things-Ostrich-Pillow/dp/B00F4RM99O/ref=sr_1_6?ie=UTF8&qid=1428960051&sr=8-6&keywords=ostrich+pillow"
+  #amazon_id: "B00F4S5ST6"
   created_at: <%= 2.days.ago %>
 
 
