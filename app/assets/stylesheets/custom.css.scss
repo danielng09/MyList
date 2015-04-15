@@ -10,10 +10,6 @@
 
 /* universal */
 
-body {
-  padding-top: 60px;
-}
-
 section {
   overflow: auto;
 }
@@ -29,6 +25,7 @@ textarea {
 .center h1 {
   margin-bottom: 10px;
 }
+
 
 /* lines */
 
@@ -51,6 +48,10 @@ input#input-label {
   margin-bottom: 0px;
 }
 
+#search-bar {
+  margin-bottom: 25px;
+}
+
 /* Forms */
 
 input, textarea, select, .uneditable-input {
@@ -62,6 +63,32 @@ input, textarea, select, .uneditable-input {
 
 input {
   height: auto !important;
+}
+
+/* Nav Bar */
+
+#white-color {
+  color: #FFFFFF;
+}
+
+#white-logo {
+  color:#FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0px;
+}
+
+h4#logo {
+  margin-right: 10px;
+  font-size: 16px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.navbar-text {
+  color: #FFFFFF;
 }
 
 
