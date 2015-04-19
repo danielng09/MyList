@@ -15,14 +15,13 @@
 	    <nav class="collapse navbar-collapse bs-navbar-collapse">
 	      <ul class="nav navbar-nav">
 	        <li>
-	          <a id="white-color" href="<%= root_path %>">Home</a>
+	          <%= link_to "Home", root_path, id:"white-color" %>
 	        </li>
 	        <li>
-	          <a id="white-color" href="#">Listings</a>
+	          <%= link_to "Listings", '#', id:"white-color" %>
 	        </li>
 	        <li>
 	          <%= link_to "About", about_path, id:"white-color" %>
-	          <!-- <a  id="white-color"href="/about">About</a> -->
 	        </li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
