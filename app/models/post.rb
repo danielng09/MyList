@@ -5,7 +5,7 @@ class Post < ActiveRecord::Base
 	validates :title, presence: true
 	validates :price, presence: true
 	validates :amazon_link, presence: true
-	validates :body, presence: true, length: { maximum: 140 }
+	validates :body, presence: true, length: { maximum: 400 }
 
 	protected
 		def set_amazon_id

@@ -20,8 +20,8 @@ class PostTest < ActiveSupport::TestCase
 		assert_not @post.valid?
 	end
 
-	test "body should not exceed 140 words" do
-		@post.body = "a" * 141
+	test "body should not exceed 400 characters" do
+		@post.body = "a" * 401
 		assert_not @post.valid?
 	end
 
